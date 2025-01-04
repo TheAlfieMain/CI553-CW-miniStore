@@ -45,6 +45,7 @@ class Main
     startCashierGUI_MVC( mlf ); // you can create multiple clients
     startPackingGUI_MVC( mlf );
     startBackDoorGUI_MVC( mlf );
+    System.out.println("Testing Commit");
   }
   
   /**
