@@ -67,7 +67,7 @@ class Main
     model.addObserver( view );       // Add observer to the model, ---view is observer, model is Observable
     window.setVisible(true);         // start Screen
   }
-
+  
   /**
    * start the cashier client - customer check stock, buy product
    * @param mlf A factory to create objects to access the stock list

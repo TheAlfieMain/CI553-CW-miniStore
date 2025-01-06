@@ -16,6 +16,7 @@ import java.util.Observer;
  */
 public class CashierView implements Observer
 {
+	
   private static final int H = 300;       // Height of window pixels
   private static final int W = 400;       // Width  of window pixels
   
@@ -59,6 +60,7 @@ public class CashierView implements Observer
     cp.setLayout(null);                             // No layout manager
     rootWindow.setSize( W, H );                     // Size of Window
     rootWindow.setLocation( x, y );
+    cp.setBackground(Color.green);
 
     Font f = new Font("Monospaced",Font.PLAIN,12);  // Font f is
 
